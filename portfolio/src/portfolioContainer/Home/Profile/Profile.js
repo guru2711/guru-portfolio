@@ -57,6 +57,13 @@ export default function Profile() {
                 Creative and enthusiastic to develop and learn new skills,
                 technologies and experience
               </span>
+              <br/>
+              <br/>
+              <span><a
+              href="https://github.com/guru2711"
+              target="_blank" rel="noreferrer"
+             style={{color: "yellow", fontSize: "25px"}}
+            >👉🏻 GitHub 👈🏻 </a></span>
             </span>
           </div>
           <div className="profile-options">

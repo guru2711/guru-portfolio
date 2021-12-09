@@ -122,7 +122,10 @@
   }
   .profile-options {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 1.5em;
+    justify-content: space-evenly;
   }
   .proflie-details {
     margin: 25px 0 0;
