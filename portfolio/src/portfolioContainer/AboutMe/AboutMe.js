@@ -59,9 +59,10 @@ function AboutMe(props) {
                 Hire Me
               </button>
               <a
-                href="Guru's Resume(2021)pdf.pdf"
-                download="Guru Guru's Resume(2021)pdf.pdf"
-              >
+              href="https://drive.google.com/file/d/1nwp3spB7_u7KwEJV7LlTQqH14cyOh3OA/view?usp=sharing"
+              target="_blank" rel="noreferrer"
+              
+            >
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
