@@ -100,7 +100,8 @@ function ContactMe(props) {
         </div>
         <div className="back-form">
           <div className="img-back">
-            <h4>Send Your Email Here!</h4>
+            
+            <h4>Using NodeMailer </h4>
             <img src={imgBack} alt="image not found" />
           </div>
           <form onSubmit={submitForm}>
@@ -117,7 +118,7 @@ function ContactMe(props) {
             <div className="send-btn">
               <button type="submit">
                 send
-                <i className="fa fa-paper-plane" />
+                <i className="fa fa-paper-plane" style={{padding:"5px", marginLeft:"10px"}} />
                 {bool ? (
                   <b className="load">
                     <img src={loading} alt="image not responding" />

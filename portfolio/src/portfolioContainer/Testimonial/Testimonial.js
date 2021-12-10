@@ -12,11 +12,9 @@ export default function Testimonial(props) {
     loop: true,
     margin: 0,
     nav: true,
-    animateIn: "bounceInRight",
-    animateOut: "bounceOutRight",
-    dots: true,
     autoplay: true,
-    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    smartSpeed: 5000,
     responsive: {
       0: {
         items: 1,
