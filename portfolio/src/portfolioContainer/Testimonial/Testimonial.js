@@ -183,9 +183,12 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
-                      delivered, I honestly fell in love with the project. He is
-                      indeed a great guy,
+                      E-commerce (electronic commerce) is the buying and selling
+                      of goods and services, or the transmitting of funds or
+                      data, over an electronic network, primarily the internet.
+                      These business transactions occur either as
+                      business-to-business (B2B), business-to-consumer (B2C),
+                      consumer-to-consumer or consumer-to-business.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -207,13 +210,14 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <h5>Portfolio</h5>
+                    <h5>E-commerce</h5>
                     <ul>
                       <li>React Js</li>
-                      <li>Bootstrap</li>
-                      <li>Node JS</li>
-                      <li>Express JS</li>
-                      <li>NodeMailer</li>
+                      <li>React hooks</li>
+                      <li>Material UI</li>
+                      <li>Third party Api</li>
+                      <li>Payment gateway</li>
+                      <li>Stripe</li>
                     </ul>
                   </div>
                 </div>
@@ -280,7 +284,7 @@ export default function Testimonial(props) {
         <br />
         <a
           className="4"
-          href="https://guruprakash.herokuapp.com/"
+          href="https://ecommerce-guru.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -292,7 +296,7 @@ export default function Testimonial(props) {
               fontSize: "15px",
             }}
           >
-            <bold>Portfolio</bold>
+            <bold>E-commerce</bold>
           </button>
         </a>
       </div>
