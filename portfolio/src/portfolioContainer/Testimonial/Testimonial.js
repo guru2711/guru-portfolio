@@ -12,7 +12,7 @@ export default function Testimonial(props) {
     loop: true,
     margin: 0,
     nav: true,
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     smartSpeed: 5000,
     responsive: {
@@ -22,8 +22,8 @@ export default function Testimonial(props) {
       768: {
         items: 1,
       },
-      1000: {
-        items: 3,
+      1080: {
+        items: 4,
       },
     },
   };
@@ -137,7 +137,6 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Chat App is real Time data transfer using Socket.io,
                       Socket.IO is a JavaScript library for realtime web
                       applications. It enables realtime, bi-directional
                       communication between web clients and servers. It has two
@@ -167,7 +166,7 @@ export default function Testimonial(props) {
                     {/* <img src={lady} alt="no internet connection"></img> */}
                     <h5>Chat App</h5>
                     <ul>
-                      <li>Real Time data Transfer using (Socket.io)</li>
+                      <li>(Socket.io)</li>
                       <li>Node JS</li>
                       <li>Express JS</li>
                       <li>jwt authentication</li>
@@ -281,7 +280,6 @@ export default function Testimonial(props) {
           </button>
         </a>
         &nbsp
-        <br />
         <a
           className="4"
           href="https://ecommerce-guru.netlify.app/"
@@ -297,6 +295,86 @@ export default function Testimonial(props) {
             }}
           >
             <bold>E-commerce</bold>
+          </button>
+        </a>
+        <br />
+        <br />
+        &nbsp
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="footer-images">
+        <a
+          className="1"
+          href="https://github.com/guru2711/PettyCash"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            className="btn highlighted-btn"
+            style={{
+              backgroundColor: "yellow",
+              color: "black",
+              fontSize: "15px",
+            }}
+          >
+            github
+          </button>
+        </a>
+        &nbsp
+        <a
+          className="1"
+          href="https://github.com/guru2711/contact-saving-front"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            className="btn highlighted-btn"
+            style={{
+              backgroundColor: "yellow",
+              color: "black",
+              fontSize: "15px",
+            }}
+          >
+            github
+          </button>
+        </a>
+        &nbsp
+        <a
+          className="1"
+          href="https://github.com/guru2711/socketio-chatapp"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            className="btn highlighted-btn"
+            style={{
+              backgroundColor: "yellow",
+              color: "black",
+              fontSize: "15px",
+            }}
+          >
+            github
+          </button>
+        </a>
+        &nbsp
+        <a
+          className="1"
+          href="https://github.com/guru2711/project_e_commerce-main"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            className="btn highlighted-btn"
+            style={{
+              backgroundColor: "yellow",
+              color: "black",
+              fontSize: "15px",
+            }}
+          >
+            github
           </button>
         </a>
       </div>
