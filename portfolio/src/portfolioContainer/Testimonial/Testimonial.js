@@ -211,12 +211,17 @@ export default function Testimonial(props) {
                   <div className="client-info">
                     <h5>E-commerce</h5>
                     <ul>
-                      <li>React Js</li>
+                      <li> React JS</li>
                       <li>React hooks</li>
-                      <li>Material UI</li>
-                      <li>Third party Api</li>
+                      <li> React-Bootstrap UI library</li>
+                      <li> MongoDB databasei</li>
                       <li>Payment gateway</li>
-                      <li>Stripe</li>
+                      <li>
+                        {" "}
+                        Admin area to manage customers, products & orders
+                      </li>
+                      <li> Integrating the PayPal API</li>
+                      <li>JWT authentication (JSON web tokens)</li>
                     </ul>
                   </div>
                 </div>
@@ -282,7 +287,7 @@ export default function Testimonial(props) {
         &nbsp
         <a
           className="4"
-          href="https://ecommerce-guru.netlify.app/"
+          href="http://guru-ecommerce.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
         >
@@ -362,7 +367,7 @@ export default function Testimonial(props) {
         &nbsp
         <a
           className="1"
-          href="https://github.com/guru2711/project_e_commerce-main"
+          href="https://github.com/guru2711/updated-ecommerce"
           target="_blank"
           rel="noreferrer"
         >
