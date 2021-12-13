@@ -184,10 +184,7 @@ export default function Testimonial(props) {
                       <i className="fa fa-quote-left" />
                       E-commerce (electronic commerce) is the buying and selling
                       of goods and services, or the transmitting of funds or
-                      data, over an electronic network, primarily the internet.
-                      These business transactions occur either as
-                      business-to-business (B2B), business-to-consumer (B2C),
-                      consumer-to-consumer or consumer-to-business.
+                      data, over an electronic network
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -216,10 +213,7 @@ export default function Testimonial(props) {
                       <li> React-Bootstrap UI library</li>
                       <li> MongoDB databasei</li>
                       <li>Payment gateway</li>
-                      <li>
-                        {" "}
-                        Admin area to manage customers, products & orders
-                      </li>
+                      <li>Admin area to manage customers, products & orders</li>
                       <li> Integrating the PayPal API</li>
                       <li>JWT authentication (JSON web tokens)</li>
                     </ul>

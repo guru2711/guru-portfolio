@@ -34,7 +34,7 @@
 
 .testimonial-section .testi-item {
   background-color: white;
-  width: 270px;
+  width: 100%;
   padding: 15px;
   background-image: url("../../../src/assets/Home/huawei-matebook-pro-2019-3840x2160-abstract-colorful-4k-22321.jpg");
   border-radius: 20px;
@@ -71,7 +71,7 @@
 }
 .testimonial-section .client-info {
   position: relative;
-  padding-left: 80px;
+  padding-left: 10px;
   padding-top: 2px;
   min-height: 60px;
 }
