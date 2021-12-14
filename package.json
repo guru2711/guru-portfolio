@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix portfolio",
     "dev": "concurrently \"npm run  server\" \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix portfolio && npm run build --prefix portfolio"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix portfolio && npm run build --prefix portfolio"
   },
   "author": "guru",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemailer": "^6.7.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "react-router-dom": "^5.2.0"
   }
 }

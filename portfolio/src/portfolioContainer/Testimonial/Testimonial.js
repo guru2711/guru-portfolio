@@ -10,7 +10,7 @@ import "./Testimonial.css";
 export default function Testimonial(props) {
   const options = {
     loop: true,
-    margin: 0,
+    margin: 10,
     nav: true,
     autoplay: false,
     autoplayHoverPause: true,
@@ -73,7 +73,6 @@ export default function Testimonial(props) {
                       </li>
                     </ul>
                   </div>
-
                   <div className="client-info">
                     {/* <img src={lady} alt="no internet connection"></img> */}
                     <h5>Cash Mangement</h5>
@@ -84,6 +83,26 @@ export default function Testimonial(props) {
                       <li>Database</li>
                     </ul>
                   </div>
+
+                  <a
+                    style={{ color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://pettycash-management.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://github.com/guru2711/PettyCash"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
 
@@ -130,6 +149,25 @@ export default function Testimonial(props) {
                       <li>Access Control</li>
                     </ul>
                   </div>
+                  <a
+                    style={{ color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://contact-savings.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://github.com/guru2711/contact-saving-front"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
               <div className="col-lg-12">
@@ -175,6 +213,25 @@ export default function Testimonial(props) {
                       <li> MongoDB / Mongoose</li>
                     </ul>
                   </div>
+                  <a
+                    style={{ color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://socketiochatapp.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://github.com/guru2711/socketio-chatapp"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
               <div className="col-lg-12">
@@ -218,13 +275,32 @@ export default function Testimonial(props) {
                       <li>JWT authentication (JSON web tokens)</li>
                     </ul>
                   </div>
+                  <a
+                    style={{ color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="http://guru-ecommerce.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn btn-outline-success"
+                    href="https://github.com/guru2711/updated-ecommerce"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </OwlCarousel>
           </div>
         </div>
       </section>
-      <div className="footer-image">
+      {/* <div className="footer-image">
         <a
           className="1"
           href="https://pettycash-management.netlify.app/"
@@ -376,7 +452,7 @@ export default function Testimonial(props) {
             github
           </button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
