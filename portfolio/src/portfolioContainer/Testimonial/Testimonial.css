@@ -116,7 +116,7 @@
   width: 100%;
 }
 
-img:hover {
+.img:hover {
   transform: scale(1.5);
   transition: 1s ease-out;
   border-radius: 15%;

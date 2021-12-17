@@ -47,7 +47,11 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <img src={cash} alt="no internet connection"></img>
+                    <img
+                      className="img"
+                      src={cash}
+                      alt="no internet connection"
+                    ></img>
                     <p style={{ marginTop: "20px" }}>
                       <i className="fa fa-quote-left" />
                       Petty cash is a nominal amount of money readily accessible
@@ -122,7 +126,11 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <img src={contact} alt="no internet connection"></img>
+                    <img
+                      className="img"
+                      src={contact}
+                      alt="no internet connection"
+                    ></img>
                     <p style={{ marginTop: "20px" }}>
                       <i className="fa fa-quote-left" />
                       Contact Saving web app is where user can save their own
@@ -197,7 +205,11 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <img src={chat} alt="no internet connection"></img>
+                    <img
+                      className="img"
+                      src={chat}
+                      alt="no internet connection"
+                    ></img>
 
                     <p style={{ marginTop: "15px" }}>
                       <i className="fa fa-quote-left" />
@@ -273,7 +285,11 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <img src={ecommerce} alt="no internet connection"></img>
+                    <img
+                      className="img"
+                      src={ecommerce}
+                      alt="no internet connection"
+                    ></img>
 
                     <p>
                       <i className="fa fa-quote-left" />
