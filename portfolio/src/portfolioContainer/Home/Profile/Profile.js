@@ -10,13 +10,7 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a
-                href="https://www.facebook.com/saiguru.prakash"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-facebook-square"></i>
-              </a>
+            
               <a
                 href="https://www.linkedin.com/in/guru-prakash/"
                 target="_blank"
@@ -24,12 +18,13 @@ export default function Profile() {
               >
                 <i className="fa fa-linkedin"></i>
               </a>
+              
               <a
-                href="https://twitter.com/saiguruprakash"
+                href="https://github.com/guru2711"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-twitter"></i>
+                <i style={{marginLeft:"20px"}} className="fa fa-github"></i>
               </a>
             </div>
           </div>

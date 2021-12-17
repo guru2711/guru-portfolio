@@ -76,13 +76,7 @@ function ContactMe(props) {
             />
           </h2>
 
-          <a
-            href="https://www.facebook.com/saiguru.prakash"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa fa-facebook-square"></i>
-          </a>
+  
           <a
             href="https://www.linkedin.com/in/guru-prakash/"
             target="_blank"
@@ -91,11 +85,12 @@ function ContactMe(props) {
             <i className="fa fa-linkedin"></i>
           </a>
           <a
-            href="https://twitter.com/saiguruprakash"
+          style={{marginLeft: "15px"}}
+            href="https://github.com/guru2711"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa fa-twitter"></i>
+            <i className="fa fa-github"></i>
           </a>
         </div>
         <div className="back-form">

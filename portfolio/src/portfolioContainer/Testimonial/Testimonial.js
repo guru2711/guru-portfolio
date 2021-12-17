@@ -2,9 +2,11 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
+import cash from "../../assets/Home/pettycashcover.jpg";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-
+import contact from "../../assets/Home/contact-saving.jpg";
+import chat from "../../assets/Home/chatapp.jpg";
+import ecommerce from "../../assets/Home/updated-ecommerce.jpg";
 import "./Testimonial.css";
 
 export default function Testimonial(props) {
@@ -20,10 +22,10 @@ export default function Testimonial(props) {
         items: 1,
       },
       768: {
-        items: 1,
+        items: 2,
       },
       1080: {
-        items: 4,
+        items: 3,
       },
     },
   };
@@ -45,7 +47,8 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <p>
+                    <img src={cash} alt="no internet connection"></img>
+                    <p style={{ marginTop: "20px" }}>
                       <i className="fa fa-quote-left" />
                       Petty cash is a nominal amount of money readily accessible
                       for paying expenses too small to merit writing a check or
@@ -95,13 +98,23 @@ export default function Testimonial(props) {
                   </a>
                   <br />
                   <a
-                    style={{ marginTop: "10px", color: "yellow" }}
-                    className="btn btn-outline-success"
+                    style={{ marginTop: "15px", color: "yellow" }}
+                    className="btn"
                     href="https://github.com/guru2711/PettyCash"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GitHub
+                    FrontEnd source code
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn"
+                    href="https://github.com/guru2711/pettycash-backend"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Backend Source code
                   </a>
                 </div>
               </div>
@@ -109,7 +122,8 @@ export default function Testimonial(props) {
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <p>
+                    <img src={contact} alt="no internet connection"></img>
+                    <p style={{ marginTop: "20px" }}>
                       <i className="fa fa-quote-left" />
                       Contact Saving web app is where user can save their own
                       contacts whether it is personal or professional each user
@@ -161,19 +175,31 @@ export default function Testimonial(props) {
                   <br />
                   <a
                     style={{ marginTop: "10px", color: "yellow" }}
-                    className="btn btn-outline-success"
+                    className="btn"
                     href="https://github.com/guru2711/contact-saving-front"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GitHub
+                    FrontEnd source code
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn"
+                    href="https://github.com/guru2711/contact-saving-backend"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    BackEnd source code
                   </a>
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
-                    <p>
+                    <img src={chat} alt="no internet connection"></img>
+
+                    <p style={{ marginTop: "15px" }}>
                       <i className="fa fa-quote-left" />
                       Socket.IO is a JavaScript library for realtime web
                       applications. It enables realtime, bi-directional
@@ -225,18 +251,30 @@ export default function Testimonial(props) {
                   <br />
                   <a
                     style={{ marginTop: "10px", color: "yellow" }}
-                    className="btn btn-outline-success"
+                    className="btn "
                     href="https://github.com/guru2711/socketio-chatapp"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GitHub
+                    FrontEnd source code
+                  </a>
+                  <br />
+                  <a
+                    style={{ marginTop: "10px", color: "yellow" }}
+                    className="btn "
+                    href="https://github.com/guru2711/socketio-backend"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    BackEnd source code
                   </a>
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
+                    <img src={ecommerce} alt="no internet connection"></img>
+
                     <p>
                       <i className="fa fa-quote-left" />
                       E-commerce (electronic commerce) is the buying and selling
@@ -292,13 +330,14 @@ export default function Testimonial(props) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GitHub
+                    Github
                   </a>
                 </div>
               </div>
             </OwlCarousel>
           </div>
         </div>
+        <p style={{ color: "yellow" }}>👉🏻*Click and drag sideways</p>
       </section>
       {/* <div className="footer-image">
         <a
