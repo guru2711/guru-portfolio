@@ -48,10 +48,10 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              <span className="profile-role-tagline">
-                Creative and enthusiastic to develop and learn new skills,
-                technologies and experience
-              </span>
+//               <span className="profile-role-tagline">
+//                 Creative and enthusiastic to develop and learn new skills,
+//                 technologies and experience
+//               </span>
               <br/>
               <br/>
               <span><a
