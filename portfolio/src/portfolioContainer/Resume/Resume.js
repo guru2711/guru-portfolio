@@ -89,7 +89,7 @@ function Resume(props) {
         heading={"Full Stack Developer"}
         subHeading={"Guvi Geek PVT LTD"}
         fromDate={"july(2021)"}
-        toDate={"present"}
+        toDate={"dec(2021)"}
       />
       <ResumeHeading
         heading={"BACHELOR OF ENGG IN MECHATRONICS"}
